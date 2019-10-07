@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action="Fibonacci1"  method="post">
+       {% csrf_token %}
+      <dl>
+        <dt>Enter a number to find out the Fibonacci Sequence </dt><br>
+
+        <dd><input type="number" name="num1" min=1 required></dd><br>
+
+        <input type="submit" value="Calculate">
+      </dl>
+
+    </form>
+
+  </body>
+</html>
